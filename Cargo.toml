@@ -1,5 +1,5 @@
 [package]
-name = "ssvm_nodejs_starter"
+name = "ssvm_nodejs_todo_app"
 version = "0.1.0"
 authors = ["ubuntu"]
 edition = "2018"
@@ -8,7 +8,7 @@ edition = "2018"
 wasm-opt = ['-O4']
 
 [lib]
-name = "ssvm_nodejs_starter_lib"
+name = "ssvm_nodejs_todo_app"
 path = "src/lib.rs"
 crate-type =["cdylib"]
 
